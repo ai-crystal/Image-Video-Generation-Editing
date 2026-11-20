@@ -1,0 +1,20 @@
+{
+  "sections": [
+    {"kind": "front", "items": [{"file": "front/preface.md", "title": "前言"}]},
+    {"kind": "chapter", "items": [
+      {"file": "chapters/ch01.md", "title": "从一条路径说起", "num": 1},
+      {"file": "chapters/ch02.md", "title": "连续归一化流", "num": 2},
+      {"file": "chapters/ch03.md", "title": "流匹配", "num": 3},
+      {"file": "chapters/ch04.md", "title": "速度与分数", "num": 4},
+      {"file": "chapters/ch05.md", "title": "整流流与重配对", "num": 5},
+      {"file": "chapters/ch06.md", "title": "随机插值", "num": 6},
+      {"file": "chapters/ch07.md", "title": "一步生成难在哪里", "num": 7},
+      {"file": "chapters/ch08.md", "title": "一致性模型与蒸馏", "num": 8},
+      {"file": "chapters/ch09.md", "title": "分布匹配与对抗蒸馏", "num": 9},
+      {"file": "chapters/ch10.md", "title": "MeanFlow：平均速度", "num": 10},
+      {"file": "chapters/ch11.md", "title": "视频上的一步生成", "num": 11},
+      {"file": "chapters/ch12.md", "title": "之后的路：改进、评测与工程", "num": 12}
+    ]},
+    {"kind": "appendix", "items": [{"file": "appendix/papers.md", "title": "论文索引", "num": "A"}]}
+  ]
+}

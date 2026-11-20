@@ -1,0 +1,13 @@
+{
+  "name": "editing",
+  "series": "生成模型系列",
+  "title": "图像生成与编辑技术",
+  "subtitle": "图像编辑的原理与方法",
+  "volume_label": "深入篇",
+  "author": "Dr. Dezeming",
+  "year": "2026",
+  "pdf": "generative-models-03-editing.pdf",
+  "toc_sections": true,
+  "cover": "cover.jpg",
+  "backcover": "backcover.jpg"
+}

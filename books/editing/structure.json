@@ -1,0 +1,20 @@
+{
+  "sections": [
+    {"kind": "front", "items": [{"file": "front/preface.md", "title": "前言"}]},
+    {"kind": "chapter", "items": [
+      {"file": "chapters/ch01.md", "title": "编辑问题的形状", "num": 1},
+      {"file": "chapters/ch02.md", "title": "在潜空间里改", "num": 2},
+      {"file": "chapters/ch03.md", "title": "文本驱动：改写注意力", "num": 3},
+      {"file": "chapters/ch04.md", "title": "反演的误差", "num": 4},
+      {"file": "chapters/ch05.md", "title": "结构条件：告诉模型改哪里", "num": 5},
+      {"file": "chapters/ch06.md", "title": "流模型的反演", "num": 6},
+      {"file": "chapters/ch07.md", "title": "免反演：FlowEdit", "num": 7},
+      {"file": "chapters/ch08.md", "title": "ChordEdit：低能量传输", "num": 8},
+      {"file": "chapters/ch09.md", "title": "视频编辑的特殊困难", "num": 9},
+      {"file": "chapters/ch10.md", "title": "视频编辑的方法", "num": 10},
+      {"file": "chapters/ch11.md", "title": "一步编辑的边界", "num": 11},
+      {"file": "chapters/ch12.md", "title": "组合与工程实践", "num": 12}
+    ]},
+    {"kind": "appendix", "items": [{"file": "appendix/papers.md", "title": "论文索引", "num": "A"}]}
+  ]
+}

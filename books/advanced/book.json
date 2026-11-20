@@ -1,0 +1,13 @@
+{
+  "name": "advanced",
+  "series": "生成模型系列",
+  "title": "图像生成与编辑技术",
+  "subtitle": "流模型与一步生成",
+  "volume_label": "进阶篇",
+  "author": "Dr. Dezeming",
+  "year": "2026",
+  "pdf": "generative-models-02-advanced.pdf",
+  "toc_sections": true,
+  "cover": "cover.jpg",
+  "backcover": "backcover.jpg"
+}

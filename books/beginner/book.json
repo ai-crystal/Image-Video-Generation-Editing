@@ -1,0 +1,13 @@
+{
+  "name": "beginner",
+  "series": "生成模型系列",
+  "title": "图像生成与编辑技术",
+  "subtitle": "从变分自编码器到扩散模型",
+  "volume_label": "入门篇",
+  "author": "Dr. Dezeming",
+  "year": "2026",
+  "pdf": "generative-models-01-beginner.pdf",
+  "toc_sections": true,
+  "cover": "cover.jpg",
+  "backcover": "backcover.jpg"
+}

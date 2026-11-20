@@ -1,0 +1,153 @@
+{
+  "sections": [
+    {
+      "kind": "front",
+      "items": [
+        {
+          "file": "front/preface.md",
+          "title": "前言"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "items": [
+        {
+          "file": "chapters/ch01.md",
+          "title": "全景：图像、视频与编辑",
+          "num": 1
+        },
+        {
+          "file": "chapters/ch02.md",
+          "title": "从一张图说起",
+          "num": 2
+        },
+        {
+          "file": "chapters/ch03.md",
+          "title": "需要的数学",
+          "num": 3
+        },
+        {
+          "file": "chapters/ch04.md",
+          "title": "自编码器与变分自编码器",
+          "num": 4
+        },
+        {
+          "file": "chapters/ch05.md",
+          "title": "生成对抗网络",
+          "num": 5
+        },
+        {
+          "file": "chapters/ch06.md",
+          "title": "扩散的思想：从加噪到去噪",
+          "num": 6
+        },
+        {
+          "file": "chapters/ch07.md",
+          "title": "从变分下界到噪声预测",
+          "num": 7
+        },
+        {
+          "file": "chapters/ch08.md",
+          "title": "采样器：从一千步到二十步",
+          "num": 8
+        },
+        {
+          "file": "chapters/ch09.md",
+          "title": "训练实践与 EDM",
+          "num": 9
+        },
+        {
+          "file": "chapters/ch10.md",
+          "title": "条件生成与引导",
+          "num": 10
+        },
+        {
+          "file": "chapters/ch11.md",
+          "title": "潜空间扩散与文本到图像",
+          "num": 11
+        },
+        {
+          "file": "chapters/ch12.md",
+          "title": "视频为什么难",
+          "num": 12
+        },
+        {
+          "file": "chapters/ch13.md",
+          "title": "时空 U-Net：把图像模型抬到 3D",
+          "num": 13
+        },
+        {
+          "file": "chapters/ch14.md",
+          "title": "时间层与运动先验",
+          "num": 14
+        },
+        {
+          "file": "chapters/ch15.md",
+          "title": "3D VAE 与视频潜空间扩散",
+          "num": 15
+        },
+        {
+          "file": "chapters/ch16.md",
+          "title": "规模化与长视频",
+          "num": 16
+        },
+        {
+          "file": "chapters/ch17.md",
+          "title": "从扩散到流：速度场的语言",
+          "num": 17
+        },
+        {
+          "file": "chapters/ch18.md",
+          "title": "一步生成：把积分折起来",
+          "num": 18
+        },
+        {
+          "file": "chapters/ch19.md",
+          "title": "编辑的全貌",
+          "num": 19
+        },
+        {
+          "file": "chapters/ch20.md",
+          "title": "在潜空间与噪声里改",
+          "num": 20
+        },
+        {
+          "file": "chapters/ch21.md",
+          "title": "文本驱动的编辑",
+          "num": 21
+        },
+        {
+          "file": "chapters/ch22.md",
+          "title": "结构与反演",
+          "num": 22
+        },
+        {
+          "file": "chapters/ch23.md",
+          "title": "流模型上的编辑与一步编辑",
+          "num": 23
+        },
+        {
+          "file": "chapters/ch24.md",
+          "title": "视频编辑：让时间保持一致",
+          "num": 24
+        },
+        {
+          "file": "chapters/ch25.md",
+          "title": "怎么选，怎么读",
+          "num": 25
+        }
+      ]
+    },
+    {
+      "kind": "appendix",
+      "items": [
+        {
+          "file": "appendix/papers.md",
+          "title": "论文索引",
+          "num": "A"
+        }
+      ]
+    }
+  ]
+}
