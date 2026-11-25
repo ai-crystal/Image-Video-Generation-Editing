@@ -1,0 +1,35 @@
+- [系列首页](/README.md)
+- [本册首页](/books/beginner/README.md)
+
+- [前言](/books/beginner/front/preface.md)
+
+- [第 1 章　全景：图像、视频与编辑](/books/beginner/chapters/ch01.md)
+- [第 2 章　从一张图说起](/books/beginner/chapters/ch02.md)
+- [第 3 章　需要的数学](/books/beginner/chapters/ch03.md)
+- [第 4 章　自编码器与变分自编码器](/books/beginner/chapters/ch04.md)
+- [第 5 章　生成对抗网络](/books/beginner/chapters/ch05.md)
+- [第 6 章　扩散的思想：从加噪到去噪](/books/beginner/chapters/ch06.md)
+- [第 7 章　从变分下界到噪声预测](/books/beginner/chapters/ch07.md)
+- [第 8 章　采样器：从一千步到二十步](/books/beginner/chapters/ch08.md)
+- [第 9 章　训练实践与 EDM 的一次整理](/books/beginner/chapters/ch09.md)
+- [第 10 章　条件生成与引导](/books/beginner/chapters/ch10.md)
+- [第 11 章　潜空间扩散与文本到图像](/books/beginner/chapters/ch11.md)
+- [第 12 章　视频为什么难](/books/beginner/chapters/ch12.md)
+- [第 13 章　时空 U-Net：把图像模型抬到 3D](/books/beginner/chapters/ch13.md)
+- [第 14 章　时间层与运动先验](/books/beginner/chapters/ch14.md)
+- [第 15 章　3D VAE 与视频潜空间扩散](/books/beginner/chapters/ch15.md)
+- [第 16 章　规模化与长视频](/books/beginner/chapters/ch16.md)
+- [第 17 章　从扩散到流：速度场的语言](/books/beginner/chapters/ch17.md)
+- [第 18 章　一步生成：把积分折起来](/books/beginner/chapters/ch18.md)
+- [第 19 章　编辑的全貌](/books/beginner/chapters/ch19.md)
+- [第 20 章　在潜空间与噪声里改](/books/beginner/chapters/ch20.md)
+- [第 21 章　文本驱动的编辑](/books/beginner/chapters/ch21.md)
+- [第 22 章　结构与反演](/books/beginner/chapters/ch22.md)
+- [第 23 章　流模型上的编辑与一步编辑](/books/beginner/chapters/ch23.md)
+- [第 24 章　视频编辑：让时间保持一致](/books/beginner/chapters/ch24.md)
+- [第 25 章　怎么选，怎么读](/books/beginner/chapters/ch25.md)
+
+- **附录**
+  - [论文索引](/books/beginner/appendix/papers.md)
+
+- <a href="/output/generative-models-01-beginner.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
