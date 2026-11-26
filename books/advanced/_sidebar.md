@@ -19,4 +19,4 @@
 - **附录**
   - [论文索引](/books/advanced/appendix/papers.md)
 
-- <a href="/output/generative-models-02-advanced.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
+- <a href="/output/v2-advanced.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>

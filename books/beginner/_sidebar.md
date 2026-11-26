@@ -32,4 +32,4 @@
 - **附录**
   - [论文索引](/books/beginner/appendix/papers.md)
 
-- <a href="/output/generative-models-01-beginner.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
+- <a href="/output/v1-beginner.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>

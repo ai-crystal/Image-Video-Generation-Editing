@@ -19,4 +19,4 @@
 - **附录**
   - [论文索引](/books/editing/appendix/papers.md)
 
-- <a href="/output/generative-models-03-editing.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
+- <a href="/output/v3-editing.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>

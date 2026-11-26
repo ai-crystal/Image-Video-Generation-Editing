@@ -8,7 +8,7 @@
 
 共 25 章 · 115 页
 
-[从第 1 章开始](chapters/ch01.md)　·　<a href="../../output/generative-models-01-beginner.pdf" target="_blank" rel="noopener" data-router-ignore>下载本册 PDF</a>
+[从第 1 章开始](chapters/ch01.md)　·　<a href="../../output/v1-beginner.pdf" target="_blank" rel="noopener" data-router-ignore>下载本册 PDF</a>
 
 ## 目录
 

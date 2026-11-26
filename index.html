@@ -85,6 +85,13 @@
               });
               return '/' + stack.join('/');
             }
+            var siteRoot = location.origin + location.pathname.replace(/[^\/]*$/, '');
+            document.querySelectorAll('a[href$=".pdf"], a[href*=".pdf?"]').forEach(function (a) {
+              var href = a.getAttribute('href') || '';
+              if (/^https?:|^\/\//.test(href)) { return; }
+              var target = href.charAt(0) === '/' ? href : normalize(href);
+              a.setAttribute('href', siteRoot.replace(/\/$/, '') + target);
+            });
             document.querySelectorAll('.markdown-section img').forEach(function (img) {
               var src = img.getAttribute('src') || '';
               if (src && !/^(https?:|\/|data:)/.test(src)) {
