@@ -6,7 +6,7 @@
 
 1. 从一条路径说起 2. 连续归一化流 3. 流匹配 4. 速度与分数 5. 整流流与重配对 6. 随机插值 7. 一步生成难在哪里 8. 一致性模型与蒸馏 9. 分布匹配与对抗蒸馏 10. MeanFlow：平均速度 11. 视频上的一步生成 12. 之后的路：改进、评测与工程
 
-共 12 章 · 53 页
+共 12 章 · 171 页
 
 [从第 1 章开始](chapters/ch01.md)　·　<a href="../../output/v2-advanced.pdf" target="_blank" rel="noopener" data-router-ignore>下载本册 PDF</a>
 

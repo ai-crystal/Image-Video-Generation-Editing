@@ -15,8 +15,8 @@
 | 册 | 书名 | 一句话 | 页数 | 在线阅读 | PDF |
 | --- | --- | --- | ---: | --- | --- |
 | 01 | [入门篇](books/beginner/README.md) | 图像、视频与编辑的全景 | 366 | [阅读](books/beginner/README.md) | <a href="output/v1-beginner.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
-| 02 | [进阶篇](books/advanced/README.md) | 流模型与一步生成 | 164 | [阅读](books/advanced/README.md) | <a href="output/v2-advanced.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
-| 03 | [深入篇](books/editing/README.md) | 图像与视频编辑的原理 | 172 | [阅读](books/editing/README.md) | <a href="output/v3-editing.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
+| 02 | [进阶篇](books/advanced/README.md) | 流模型与一步生成 | 171 | [阅读](books/advanced/README.md) | <a href="output/v2-advanced.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
+| 03 | [深入篇](books/editing/README.md) | 图像与视频编辑的原理 | 184 | [阅读](books/editing/README.md) | <a href="output/v3-editing.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
 
 ## 怎么读
 

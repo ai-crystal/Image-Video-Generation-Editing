@@ -6,7 +6,7 @@
 
 1. 编辑问题的形状 2. 在潜空间里改 3. 文本驱动：改写注意力 4. 反演的误差 5. 结构条件：告诉模型改哪里 6. 流模型的反演 7. 免反演：FlowEdit 8. ChordEdit：低能量传输 9. 视频编辑的特殊困难 10. 视频编辑的方法 11. 一步编辑的边界 12. 组合与工程实践
 
-共 12 章 · 52 页
+共 12 章 · 184 页
 
 [从第 1 章开始](chapters/ch01.md)　·　<a href="../../output/v3-editing.pdf" target="_blank" rel="noopener" data-router-ignore>下载本册 PDF</a>
 
