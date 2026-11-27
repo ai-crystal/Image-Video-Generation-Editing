@@ -583,17 +583,29 @@ def build_book(bookdir, do_figures=False, no_opt=False):
     heads = extract_headings(out_pdf)
     offset = stamp_pdf(out_pdf, items, heads, book)
 
-    # 补页码后重排目录
-    page_map = {}
-    for lv, t, p in heads:
-        page_map.setdefault(t.strip(), p - offset + 1 if p >= offset else roman(p + 1))
-    for e in toc_entries:
+    # 补页码后重排目录：按文档顺序逐条对齐，标题重名时不会错位
+    def clean(e):
         key = e["title"]
         if key.startswith("第 ") and "章　" in key:
             key = key.split("章　", 1)[1]
-        if key.startswith("附录 ") and "　" in key:
+        elif key.startswith("附录 ") and "　" in key:
             key = key.split("　", 1)[1]
-        e["page"] = page_map.get(key, "")
+        return key.strip()
+
+    hi = 0
+    for e in toc_entries:
+        e["page"] = ""
+        want_lv = 2 if e["level"] == 2 else 1
+        key = clean(e)
+        for j in range(hi, len(heads)):
+            lv, t, p = heads[j]
+            if lv == want_lv and t.strip() == key:
+                e["page"] = p - offset + 1 if p >= offset else roman(p + 1)
+                hi = j + 1
+                break
+    miss = [clean(e) for e in toc_entries if e["page"] == ""]
+    if miss:
+        print("  目录页码未对上：%s" % miss[:5])
 
     html = build_html(book, items, toc_entries, cover_uri, back_uri)
     open(html_path, "w", encoding="utf-8").write(html)

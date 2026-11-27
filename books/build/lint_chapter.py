@@ -11,6 +11,9 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 BOOK_NAMES = {"beginner": "入门篇", "advanced": "进阶篇", "editing": "深入篇"}
+BANNED = ["值得注意的是", "不难发现", "众所周知", "显而易见", "综上所述", "总而言之",
+          "总的来说", "赋能", "助力", "一站式", "深度剖析", "极大地", "显著地",
+          "让我们", "想象一下", "本文将", "本节将", "下面我们"]
 
 
 def lint(path):
@@ -62,6 +65,26 @@ def lint(path):
     for mm in re.finditer(r"(入门篇|进阶篇|深入篇)", s):
         if mm.group(1) != own:
             warns.append("出现其他分册名：%s" % mm.group(1))
+
+    # 引号：中文必须用“”，代码块、行内代码、HTML 属性里的引号不算
+    plain = re.sub(r"`[^`\n]*`", "", body)
+    plain = re.sub(r'="[^"\n]*"', "", plain)
+    straight = re.findall(r'"([^"\n]*)"', plain)
+    n_cjk = sum(1 for x in straight if re.search(r"[\u4e00-\u9fff]", x))
+    if n_cjk:
+        warns.append("中文用了直角引号 %d 处，应改为“”" % n_cjk)
+    if plain.count("“") != plain.count("”"):
+        errs.append("中文引号“”不成对")
+
+    # 编辑口径残留：扩写时的待办句
+    LEFT = re.compile(r"[^。\n]{0,20}(?:补上这一句|补一个[^。\n]{0,10}推导|再补两句|值得补一句|（待补）|\(待补\)|TODO)[^。\n]{0,10}。")
+    for mm in LEFT.finditer(s):
+        errs.append("编辑口径残留：%s" % mm.group(0).strip()[:40])
+
+    # 禁用词（与 review_chapters.py 保持一致）
+    for w in BANNED:
+        if w in s:
+            warns.append("禁用词：%s" % w)
 
     chars = len(re.findall(r"[\u4e00-\u9fa5]", s))
     return chars, errs, warns
